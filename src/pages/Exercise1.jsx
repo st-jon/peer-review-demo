@@ -33,7 +33,7 @@ export default function Exercise1() {
     >
       <div className="flex flex-col items-center gap-4 py-6">
         {/* TODO: add onClick={handleClick} to the button below */}
-        <button className="px-6 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors">
+        <button onClick={() => handleClick()} className="px-6 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors">
           Say Hello
         </button>
 
